@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//This is for creating network request
 class MyHttpOverrides extends HttpOverrides {
   @override
   HttpClient createHttpClient(SecurityContext? context) {
