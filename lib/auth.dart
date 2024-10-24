@@ -22,7 +22,6 @@ Future<String> createUser(String name, String email, String password) async {
 }
 
 // Login User
-
 Future loginUser(String email, String password) async {
   try {
     final user =
